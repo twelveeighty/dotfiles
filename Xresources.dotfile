@@ -1,0 +1,58 @@
+! XTerm.vt100.reverseVideo: true
+XTerm.vt100.translations: #override \n\
+Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+XTerm.vt100.faceName: Hack
+XTerm.vt100.faceSize: 10
+XTerm.vt100.geometry: 120x35
+
+! grassland by bohoomil
+
+XTerm.vt100.background:  #0d1926
+xterm*background:        #0d1926
+XTerm.vt100.foreground:  #d9e6f2
+xterm*foreground:        #d9e6f2
+XTerm.vt100.cursorColor: #238c0e
+
+! black
+XTerm.vt100.color0:  #00070d
+! dark gray
+XTerm.vt100.color8:  #666666
+
+! red
+XTerm.vt100.color1:  #a83a71
+! bright red
+XTerm.vt100.color9:  #d78bb1
+
+! green
+XTerm.vt100.color2:  #71a83a
+! bright green
+XTerm.vt100.color10: #b1d78b
+
+! yellow
+XTerm.vt100.color3:  #a8713a
+! bright yellow
+XTerm.vt100.color11: #d7b18b
+
+! blue
+XTerm.vt100.color4:  #3a71a8
+! bright blue
+XTerm.vt100.color12: #8bb1d7
+
+! magenta
+XTerm.vt100.color5:  #713aa8
+! bright magenta
+XTerm.vt100.color13: #b18bd7
+
+! cyan
+XTerm.vt100.color6:  #3aa871
+! bright cyan
+XTerm.vt100.color14: #8bd7b1
+
+! light gray
+XTerm.vt100.color7:  #a6a6a6
+! white
+XTerm.vt100.color15: #e6e6e6
+
+! vim:ft=xdefaults
+

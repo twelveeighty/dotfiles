@@ -1,0 +1,17 @@
+syntax on
+filetype plugin on
+set autoindent
+set tabstop=4
+set shiftwidth=4
+set noexpandtab
+set backupdir=~/tmp/vim//
+set directory=~/tmp/vim//
+nmap <C-n> :NERDTreeToggle<CR>
+set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
+set noshowmode
+let Tlist_Compact_Format = 1
+let Tlist_GainFocus_On_ToggleOpen = 1
+let Tlist_Close_On_Select = 1
+nnoremap <C-l> :TlistToggle<CR>

@@ -1,0 +1,13 @@
+set lines=40
+set columns=150
+colorscheme darkblue
+set number
+vmap <C-Space> "+y
+nmap <C-Space> "+P
+imap <C-Space> <C-o>"+p
+nmap <C-c> "+yiw
+set guicursor=a:blinkon0
+set guifont=Inconsolata-g
+set guioptions-=T
+nmap <C-PageDown> :bnext<CR>
+nmap <C-PageUp> :bprevious<CR>
